@@ -7,7 +7,7 @@
     fazendo-o piscar em intervalos regulares 1 segundo.
 */
 
-const int led = 13; // Pino digital onde o LED está conectado
+const int led = 21; // Pino digital onde o LED está conectado
 
 void setup() {
   pinMode(led, OUTPUT); // Configura o pino do LED como saída
